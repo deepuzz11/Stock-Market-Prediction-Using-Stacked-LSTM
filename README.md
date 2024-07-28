@@ -12,25 +12,21 @@ Objective: Develop a model to predict stock prices using a stacked LSTM network.
 8. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-This project aims to predict stock market prices using a Stacked Long Short-Term Memory (LSTM) neural network. The model is trained on historical stock prices to predict future stock prices.
+This project investigates the application of stacked Long Short-Term Memory (LSTM) networks for stock price prediction. LSTMs are a powerful type of recurrent neural network (RNN) adept at learning complex relationships in sequential data, making them well-suited for analyzing historical stock price movements.
 
 ## Project Structure
 Stock-Market-Prediction-Using-Stacked-LSTM/
-│
 ├── data/
-│ ├── X_train.npy
-│ ├── X_test.npy
-│ ├── y_train.npy
-│ └── y_test.npy
-│
+│   ├── X_train.npy
+│   ├── X_test.npy
+│   ├── y_train.npy
+│   └── y_test.npy
 ├── model/
-│ └── stock_lstm_model.keras
-│
+│   └── stock_lstm_model.keras
 ├── train_model.py
 ├── evaluate_model.py
 ├── requirements.txt
 └── README.md
-
 
 ## Installation
 1. **Clone the repository:**
