@@ -1,4 +1,4 @@
-# Stock Market Prediction Using Stacked LSTM
+# StockNet : Stock Market Prediction Using Stacked LSTM
 Objective: Develop a model to predict stock prices using a stacked LSTM network.
 
 ## Table of Contents
